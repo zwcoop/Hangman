@@ -129,6 +129,6 @@ def hangman(secretWord):
     print('Sorry, you ran out of guesses. The word was', secretWord)
     return
 
-secretWord = 'python'
-#secretWord = chooseWord(wordlist).lower()
+#secretWord = 'python'
+secretWord = chooseWord(wordlist).lower()
 print(hangman(secretWord))
